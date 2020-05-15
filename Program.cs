@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace LatihanPolymorphism
 {
@@ -28,7 +28,7 @@ namespace LatihanPolymorphism
             {
                 printer = new LaserJet();
             }
-
+            
             printer.Show();
             printer.Print();
         }

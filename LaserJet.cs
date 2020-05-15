@@ -1,12 +1,12 @@
  using System;
 
-public class LaserJet : PrinterWindows
+ class LaserJet : PrinterWindows
 {
-    public override void Show()
+    public void Show()
     {
       Console.WriteLine("Laserjet display dimension : 12*12");  
     }
-    public override void Print()
+    public void Print()
     {
         Console.WriteLine("Laserjet Printer is Printing ...");
     }

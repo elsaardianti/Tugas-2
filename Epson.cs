@@ -1,12 +1,12 @@
- using System;
+using System;
 
-public class Epson : PrinterWindows
+class Epson : PrinterWindows
 {
-    public override void Show()
+    public void Show()
     {
       Console.WriteLine("Epson display dimension : 10*11");  
     }
-    public override void Print()
+    public void Print()
     {
         Console.WriteLine("Epson Printer is Printing ...");
     }
